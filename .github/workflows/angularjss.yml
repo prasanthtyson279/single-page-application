@@ -25,7 +25,8 @@ jobs:
         run: |
           npm install jss
           ls
-          jss start
+          jss start:connected
+          jss build
           
 
       - name: Upload artifact for deployment job
