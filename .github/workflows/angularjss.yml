@@ -27,6 +27,7 @@ jobs:
           jss --help
           jss start:connected
           jss build
+          cd /opt/hostedtoolcache/node/14.21.1/x64/lib/node_modules/@sitecore-jss/sitecore-jss-cli/dist/cjs/bin/jss.js
           
 
       - name: Upload artifact for deployment job
