@@ -23,7 +23,7 @@ jobs:
 
       - name: npm install, build, and test
         run: |
-          npm install jss
+          npm install jss -g
           ls
           jss start:connected
           jss build
