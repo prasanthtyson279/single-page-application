@@ -23,11 +23,8 @@ jobs:
 
       - name: npm install, build, and test
         run: |
-          npm install -g @sitecore-jss/sitecore-jss-cli
-          jss --help
-          npm config list
+          npm install
           npm run jss build
-          
 
       - name: Upload artifact for deployment job
         uses: actions/upload-artifact@v2
