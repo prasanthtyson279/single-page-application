@@ -23,7 +23,7 @@ jobs:
 
       - name: npm install, build, and test
         run: |
-          npm init sitecore-jss
+          npm i @sitecore-jss/sitecore-jss-cli
           ls
           jss start
           
