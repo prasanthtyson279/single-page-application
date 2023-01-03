@@ -26,12 +26,6 @@ jobs:
           npm install -g @sitecore-jss/sitecore-jss-cli
           jss start:connected
           jss build
-          ls
-          cd ..
-          ls
-          pwd
-          cd ..
-          ls
 
       - name: Upload artifact for deployment job
         uses: actions/upload-artifact@v2
