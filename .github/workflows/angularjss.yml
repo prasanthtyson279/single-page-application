@@ -25,6 +25,7 @@ jobs:
         run: |
           npm install @sitecore-jss/sitecore-jss-cli
           npm config list
+          npm run jss start
           npm run jss build
 
       - name: Upload artifact for deployment job
