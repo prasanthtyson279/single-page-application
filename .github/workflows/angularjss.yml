@@ -25,6 +25,8 @@ jobs:
         run: |
           npm install -g @sitecore-jss/sitecore-jss-cli
           jss build
+          ls
+          pwd
           jss deploy app --includeContent --includeDictionary --acceptCertificate C2:87:4B:22:6D:EB:32:54:C1:87:72:D0:5B:6A:13:A1:78:02:82:07
 
       - name: Upload artifact for deployment job
